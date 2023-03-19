@@ -39,7 +39,6 @@ if (ScrollTrigger.isTouch !== 1) {
 }
 else {
   t3.to('#header-web__block-content__h2', { opacity: 1, duration: 1 }, 0);
-  t3.to('#header-web__block-content__h1', { opacity: 1, duration: 1 }, 0);
   t3.to('.delimiter__i', { opacity: 1, duration: 1 }, 0);
   t3.to('.delimiter__line-left', { opacity: 1, duration: 1 }, 0);
   t3.to('.delimiter__line-right', { opacity: 1, duration: 1 }, 0);
