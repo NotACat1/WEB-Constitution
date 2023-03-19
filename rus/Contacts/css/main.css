@@ -28,6 +28,10 @@
   font-family: MontserratAlt1-Regular_f;
   src: url(../../../fonts/MontserratAlt1-Bold.woff2);
 }
+@font-face {
+  font-family: constantine_f;
+  src: url(../../../fonts/constantine.woff2);
+}
 html, body {
   overflow-x: hidden; 
 }
@@ -111,7 +115,7 @@ img {
 }
 .text-hover-dop {
   color: var(--text-hover);
-  font-family: Ubuntu-Regular_f;
+  font-family: constantine_f;
 }
 .text_flg {
   font-size: calc(var(--index) * 10 / var(--text-divider));
