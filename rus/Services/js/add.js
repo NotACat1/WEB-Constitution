@@ -31,14 +31,14 @@ if (ScrollTrigger.isTouch !== 1) {
     smooth: 2.05,
     effects: true
   });
-  t3.to('#header-web__block-content__h2', { opacity: 1, duration: 0.7 }, 0);
+  t3.to('#header-web__block-content__h1', { opacity: 1, duration: 0.7 }, 0);
   t3.to('.delimiter__i', { opacity: 1, rotation: 7200, duration: 0.6 }, 0.7);
   t3.fromTo('.delimiter__line-left', { opacity: 0, duration: 0.6, width: '0%' }, { opacity: 1, width: '30%' }, 1);
   t3.fromTo('.delimiter__line-right', { opacity: 0, duration: 0.6, width: '0%' }, { opacity: 1, width: '30%' }, 1);
   t3.to('#header-web__block-content__h6', { opacity: 1, duration: 1 }, 1.5);
 }
 else {
-  t3.to('#header-web__block-content__h2', { opacity: 1, duration: 1 }, 0);
+  t3.to('#header-web__block-content__h1', { opacity: 1, duration: 1 }, 0);
   t3.to('.delimiter__i', { opacity: 1, duration: 1 }, 0);
   t3.to('.delimiter__line-left', { opacity: 1, duration: 1 }, 0);
   t3.to('.delimiter__line-right', { opacity: 1, duration: 1 }, 0);
