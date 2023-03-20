@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 991px) {
   :root {
-    --text-divider: 12;
+    --text-divider: 10;
   }
 }
 @media screen and (min-width: 992px) {
