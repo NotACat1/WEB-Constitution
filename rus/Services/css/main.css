@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 991px) {
   :root {
-    --text-divider: 8;
+    --text-divider: 9;
   }
 }
 @media screen and (min-width: 992px) {
@@ -123,6 +123,9 @@ img {
 .text-white-dop {
   color: var(--text-white);
   font-family: Ubuntu-Regular_f;
+}
+.text-left {
+  text-align: left; 
 }
 /*LOGO*/
 .logo-white {
