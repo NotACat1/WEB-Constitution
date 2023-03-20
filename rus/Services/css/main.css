@@ -287,7 +287,7 @@ img {
   margin: 0 calc(var(--index) * 8 / var(--text-divider));
 }
 .delimiter__line-left, .delimiter__line-right {
-  width: 30%;
+  width: 50%;
 }
 #header-web__block-content__h1, #header-web__block-content__h2, #header-web__block-content__h6, .delimiter__line-left, .delimiter__line-right, .delimiter__i {
   opacity: 0;
