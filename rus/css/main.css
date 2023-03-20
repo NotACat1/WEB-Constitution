@@ -124,6 +124,9 @@ img {
   color: var(--text-white);
   font-family: Ubuntu-Regular_f;
 }
+.text-left {
+ text-align: left; 
+}
 /*LOGO*/
 .logo-white {
   color: var(--text-white);
