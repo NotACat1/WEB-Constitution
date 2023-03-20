@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 991px) {
   :root {
-    --text-divider: 8;
+    --text-divider: 9;
   }
 }
 @media screen and (min-width: 992px) {
@@ -123,6 +123,9 @@ img {
 .text-white-dop {
   color: var(--text-white);
   font-family: Ubuntu-Regular_f;
+}
+.text-left {
+ text-align: left; 
 }
 /*LOGO*/
 .logo-white {
@@ -284,7 +287,7 @@ img {
   margin: 0 calc(var(--index) * 8 / var(--text-divider));
 }
 .delimiter__line-left, .delimiter__line-right {
-  width: 30%;
+  width: 50%;
 }
 #header-web__block-content__h1, #header-web__block-content__h2, #header-web__block-content__h6, .delimiter__line-left, .delimiter__line-right, .delimiter__i {
   opacity: 0;
