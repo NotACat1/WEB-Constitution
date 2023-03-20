@@ -56,13 +56,13 @@
       <nav class="container-fluid fixed-top nav-top">
         <div class="row d-flex align-items-center nav-top__blocks">
           <!--less lg open side menu button-->
-          <span class="d-block d-lg-none col-2">
+          <span class="d-block d-lg-none col-3">
             <button type="button" class="btn btn-secondary d-flex justify-content-center align-items-center nav-top__block-side-menu" id="button-menu-open">
               <i class="bi-list icon__menu-close m-0 icon-white"></i>
             </button>
           </span>
           <!--logo-->
-          <div class="col-8 col-lg-2 d-flex justify-content-center align-items-center nav-top__block-logo">
+          <div class="col-6 col-lg-2 d-flex justify-content-center align-items-center nav-top__block-logo">
             <a href="../index.html">
               <h4 class="m-0 logo-white">BINDER</h4>
             </a>            
@@ -103,7 +103,7 @@
             </div>
           </span>
           <!--languages-->
-          <div class="dropdown col-2 col-lg-1">
+          <div class="dropdown col-3 col-lg-1 d-flex justify-content-end align-items-center">
             <a class="btn btn-secondary d-flex justify-content-start align-items-center" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
               <span class="flag-icon flag-icon-ru flag-icon-squared"></span>
               <div class="m-0 text-white text_flg">RUS</div>
@@ -123,7 +123,7 @@
           <div class="row">
             <div class="d-flex flex-column justify-content-start align-items-start col-10 nav-side__blocks">
               <div class="d-flex justify-content-between align-items-center w-100">
-                <h2 class="text-white">Меню навигации</h2>
+                <h2 class="text-white text-left">Меню навигации</h2>
                 <button type="button" class="btn btn-secondary d-flex justify-content-center align-items-center btn-close-nav-side" id="button-menu-close">
                   <i class="bi-x icon__menu-close m-0 icon-white"></i>
                 </button>
@@ -131,16 +131,16 @@
               <!--navigation menu-->
               <ul class="nav-side__block-items w-75">
                 <li class="nav-side__block-item d-flex justify-content-start align-items-center">
-                  <a href="../index.html"><h3 class="m-0 text-white">Главная</h3></a>
+                  <a href="../index.html"><h3 class="m-0 text-white text-left">Главная</h3></a>
                 </li>
                 <li class="nav-side__block-item d-flex justify-content-start align-items-center">
-                  <a href="./index.html"><h3 class="m-0 text-hover">Галерея работ</h3></a>
+                  <a href="./index.html"><h3 class="m-0 text-hover text-left">Галерея работ</h3></a>
                 </li>
                 <li class="nav-side__block-item d-flex justify-content-start align-items-center">
-                  <a href="../Services/index.html"><h3 class="m-0 text-white">Услуги</h3></a>
+                  <a href="../Services/index.html"><h3 class="m-0 text-white text-left">Услуги</h3></a>
                 </li>
                 <li class="nav-side__block-item d-flex justify-content-start align-items-center">
-                  <a href="../Contacts/index.html"><h3 class="m-0 text-white">Контакты</h3></a>
+                  <a href="../Contacts/index.html"><h3 class="m-0 text-white text-left">Контакты</h3></a>
                 </li>
               </ul>
               <!--contacts-->
@@ -172,7 +172,7 @@
             <div class="row d-flex justify-content-center align-items-center header-web__blocks">
               <div class="col-10 d-flex flex-column justify-content-center align-items-center header-web__block-content">
                 <h1 data-speed=".90" class="m-2 text-hover-dop" id="header-web__block-content__h1">Галерея работ</h1>
-                <div data-speed=".82" class="m-3 d-flex justify-content-center align-items-center delimiter w-75">
+                <div data-speed=".82" class="m-3 d-flex justify-content-center align-items-center delimiter w-100">
                   <div class="d-flex align-items-center delimiter__line delimiter__line-left">
                     <hr>
                   </div>
@@ -339,8 +339,8 @@
           </section>
           <!--Footer web-->
           <footer data-speed="1" class="container-fluid footer-web">
-            <div class="row d-flex flex-column align-items-center justify-content-center footer-web__blocks">
-              <div class="d-flex justify-content-around align-items-center w-75 footer-web__block-contacts">
+            <div class="row d-flex align-items-center justify-content-center footer-web__blocks">
+              <div class="col-10 col-lg-6 d-flex justify-content-around align-items-center w-75 footer-web__block-contacts">
                 <a class="footer-web__block-contact" href="tel:+995571199678" title="BINDER phone number" target="_blank" rel="noopener">
                   <i class="bi bi-telephone footer-web__icons icon-white"></i>
                 </a>
@@ -354,7 +354,9 @@
                   <i class="bi bi-envelope footer-web__icons icon-white"></i>
                 </a>
               </div>
-              <div class="d-flex justify-content-center align-items-center footer-web__block-captcha">
+            </div>
+            <div class="row d-flex align-items-center justify-content-center footer-web__blocks">
+              <div class="col-12 d-flex justify-content-around align-items-center footer-web__block-captcha">
                 <h6 class="m-0 text-white">Made by paws</h6>
               </div>
             </div>
